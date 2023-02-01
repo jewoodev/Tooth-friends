@@ -1,0 +1,9 @@
+test: /content/drive/MyDrive/Colab_Notebooks/tooth3/images
+val: /content/drive/MyDrive/Colab_Notebooks/tooth3/images
+
+nc: 3
+names: [
+  'fine', 
+  'decay', 
+  'secondary_decay'
+  ]

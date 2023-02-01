@@ -1,0 +1,7 @@
+names:
+- fine
+- decay
+- secondary_decay
+nc: 3
+train: /content/drive/MyDrive/Colab_Notebooks/tooth3/train.txt
+val: /content/drive/MyDrive/Colab_Notebooks/tooth3/val.txt

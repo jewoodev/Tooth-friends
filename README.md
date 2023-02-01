@@ -1,10 +1,35 @@
-- 👋 Hi, I’m @sinjewoo
-- 👀 I’m interested in data science.
-- 🌱 I’m currently learning about data analyzing.
-- 💞️ I’m looking to collaborate on growth hacking team.
-- 📫 How to reach me ...
+# :pushpin: Tooth-friends
+>치아 건강 관리 시스템 (개인 프로젝트)    
 
-<!---
-sinjewoo/sinjewoo is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+</br>
+
+## 1. 제작 기간 & 참여 인원
+- 2022.9.3 ~ 2022.12.25
+- 개인 프로젝트
+
+</br>
+
+## 2. 사용 기술
+  - Python
+
+</br>
+
+## 3. 시스템 설계
+임베디드 시스템, 젯슨 나노에 커스텀 데이터셋으로 학습되어진 객체 인식 모델로 구강 카메라를 통해 실시간으로 촬영하며 치아를 관리할 수 있게 설계되었습니다.
+
+
+## 4. 핵심 기능
+치아프렌즈 시스템의 핵심 기능은 충치 진단입니다. 사용자는 그저 구강 카메라로 궁금한 치아를 촬영하면 시스템이 치아 상태를 알려줍니다. 정상, 일반 충치, 2차 충치(수복물 치료 치아)의 세가지 형태로 치아가 어떤지 알려줌으로써 쉽게 놓칠 수 있는 치아 건강을 케어할 수 있게 해줍니다.
+
+<details>
+<summary><b>핵심 기능 설명 펼치기</b></summary>
+<div markdown="1">
+
+### 4.1. Object Detection model
+![Yolo](https://user-images.githubusercontent.com/105477856/204968803-86140472-ffe5-4950-a8b4-3e32b17a43f9.JPG)
+Object detection을 할 수 있는 여러가지 모델 중에 FPS(Frame Per Seconds)와 mAP(Mean Average Precision)가 높은 Yolov5를 사용했습니다.
+
+### 4.2. 데이터베이스
+머신러닝에 사용할 데이터베이스를 구축하기 위해 Python 환경에서 크롤링을 통해 데이터 마이닝을 한 후, 사용할 데이터를 선별하고 나서 라벨링 작업을 거쳤습니다.  
+
+> 수정 및 추가 예정 ...
