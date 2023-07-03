@@ -75,15 +75,15 @@ Yolo는 시간을 거쳐 여러 버전으로 변화를 갖게 되는데 흔히 �
 </details>
 
 ## 5. 모델 성능
-![image](https://github.com/jewoodev/tooth-friends/assets/105477856/da40efdb-40be-4e68-a0b1-ab79c4ec3d5a)
+![image](https://github.com/jewoodev/tooth-friends/assets/105477856/da40efdb-40be-4e68-a0b1-ab79c4ec3d5a){: width="50" height="50"}
 yolov5는 다양한 크기의 network 구성을 갖고 있어 상황에 맞는 선택이 가능합니다. 나노부터 스몰, 미디엄, 라지, 엑스라지 순으로 무거울수록 정확도가 높아지고 속도는 느려집니다. 저는 치아프렌즈에 알맞다고 판단된 s 모델을 선택했습니다.
 
 위의 표는 Yolov5의 공식적인 성능표, 아래의 표는 치아프렌즈의 성능표로 위의 YOLOv5s의 mAP과 아래의 mAP을 비교하면 각 치아 검출의 성능이 어떤지 알 수 있습니다.  
 ![image](https://github.com/jewoodev/tooth-friends/assets/105477856/67d82d7e-737d-42c8-8b26-e927454728f6)
 
 # 6. 실제 작동 화면
-![image](https://github.com/jewoodev/tooth-friends/assets/105477856/d29cc9ea-a5a8-4861-9a08-5abd038df93a)
+![image](https://github.com/jewoodev/tooth-friends/assets/105477856/d29cc9ea-a5a8-4861-9a08-5abd038df93a){: width="50" height="50"}
 
-![image](https://github.com/jewoodev/tooth-friends/assets/105477856/60734e8c-c19e-4abf-8f17-1710bcf069d3)
+![image](https://github.com/jewoodev/tooth-friends/assets/105477856/60734e8c-c19e-4abf-8f17-1710bcf069d3){: width="50" height="50"}
 
 ![image](https://github.com/jewoodev/tooth-friends/assets/105477856/9d9e0946-1b65-430b-9e9b-b465e664cb3d)
